@@ -1,0 +1,110 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 592,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-592.onnx",
+                "reward": 0.3333333333333333,
+                "creation_time": 1637992061.688894,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-592.pt"
+                ]
+            },
+            {
+                "steps": 656,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-656.onnx",
+                "reward": 0.3333333333333333,
+                "creation_time": 1637992061.8076642,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-656.pt"
+                ]
+            },
+            {
+                "steps": 664,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-664.onnx",
+                "reward": 0.25,
+                "creation_time": 1637992062.3718688,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-664.pt"
+                ]
+            },
+            {
+                "steps": 728,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-728.onnx",
+                "reward": 0.25,
+                "creation_time": 1637992062.9321659,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-728.pt"
+                ]
+            },
+            {
+                "steps": 792,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-792.onnx",
+                "reward": 0.25,
+                "creation_time": 1637992063.480202,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-792.pt"
+                ]
+            },
+            {
+                "steps": 856,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-856.onnx",
+                "reward": 0.25,
+                "creation_time": 1637992063.607892,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-856.pt"
+                ]
+            },
+            {
+                "steps": 864,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-864.onnx",
+                "reward": 0.2,
+                "creation_time": 1637992064.1599429,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-864.pt"
+                ]
+            },
+            {
+                "steps": 928,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-928.onnx",
+                "reward": 0.2,
+                "creation_time": 1637992064.7099872,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-928.pt"
+                ]
+            },
+            {
+                "steps": 992,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-992.onnx",
+                "reward": 0.2,
+                "creation_time": 1637992065.253194,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-992.pt"
+                ]
+            },
+            {
+                "steps": 1056,
+                "file_path": "results/Rocket6/My Behavior/My Behavior-1056.onnx",
+                "reward": 0.2,
+                "creation_time": 1637992065.301336,
+                "auxillary_file_paths": [
+                    "results/Rocket6/My Behavior/My Behavior-1056.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1056,
+            "file_path": "results/Rocket6/My Behavior.onnx",
+            "reward": 0.2,
+            "creation_time": 1637992065.301336,
+            "auxillary_file_paths": [
+                "results/Rocket6/My Behavior/My Behavior-1056.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.6.0"
+    }
+}

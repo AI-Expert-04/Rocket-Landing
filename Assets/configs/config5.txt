@@ -1,0 +1,20 @@
+behaviors:
+    My Behavior:
+        max_steps: 100000000
+        summary_freq: 10000
+
+environment_parameters:
+    init_height:
+        curriculum:
+            - name: init_height1
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.05
+              value: 10
+            - name: init_height2
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.15
+              value: 20

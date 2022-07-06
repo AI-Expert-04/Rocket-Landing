@@ -1,0 +1,71 @@
+{
+    "init_height": {
+        "lesson_num": 4
+    },
+    "rotation_range": {
+        "lesson_num": 4
+    },
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 40999977,
+                "file_path": "results\\RocketLR5\\My Behavior\\My Behavior-40999977.onnx",
+                "reward": 0.0975609756097561,
+                "creation_time": 1638564809.134612,
+                "auxillary_file_paths": [
+                    "results\\RocketLR5\\My Behavior\\My Behavior-40999977.pt"
+                ]
+            },
+            {
+                "steps": 41499967,
+                "file_path": "results\\RocketLR5\\My Behavior\\My Behavior-41499967.onnx",
+                "reward": 0.2923728813559322,
+                "creation_time": 1638565051.4707136,
+                "auxillary_file_paths": [
+                    "results\\RocketLR5\\My Behavior\\My Behavior-41499967.pt"
+                ]
+            },
+            {
+                "steps": 41999984,
+                "file_path": "results\\RocketLR5\\My Behavior\\My Behavior-41999984.onnx",
+                "reward": 0.15384615384615385,
+                "creation_time": 1638565295.5293345,
+                "auxillary_file_paths": [
+                    "results\\RocketLR5\\My Behavior\\My Behavior-41999984.pt"
+                ]
+            },
+            {
+                "steps": 42499975,
+                "file_path": "results\\RocketLR5\\My Behavior\\My Behavior-42499975.onnx",
+                "reward": 0.2302158273381295,
+                "creation_time": 1638565538.640613,
+                "auxillary_file_paths": [
+                    "results\\RocketLR5\\My Behavior\\My Behavior-42499975.pt"
+                ]
+            },
+            {
+                "steps": 42689806,
+                "file_path": "results\\RocketLR5\\My Behavior\\My Behavior-42689806.onnx",
+                "reward": 0.2872727272727273,
+                "creation_time": 1638565633.118891,
+                "auxillary_file_paths": [
+                    "results\\RocketLR5\\My Behavior\\My Behavior-42689806.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 42689806,
+            "file_path": "results\\RocketLR5\\My Behavior.onnx",
+            "reward": 0.2872727272727273,
+            "creation_time": 1638565633.118891,
+            "auxillary_file_paths": [
+                "results\\RocketLR5\\My Behavior\\My Behavior-42689806.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.2+cpu"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1638190438",
+        "python_version": "3.6.8 |Anaconda, Inc.| (default, Dec 29 2018, 19:04:46) \n[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)]",
+        "command_line_arguments": "/Users/pjh/anaconda3/envs/ml-env/bin/mlagents-learn configs/config.txt --run-id=Rocket10",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.6.0",
+        "numpy_version": "1.17.2",
+        "end_time_seconds": "1638190438"
+    },
+    "total": 0.046712571987882257,
+    "count": 1,
+    "self": 0.01100128301186487,
+    "children": {
+        "run_training.setup": {
+            "total": 0.02564318396616727,
+            "count": 1,
+            "self": 0.02564318396616727
+        },
+        "TrainerController.start_learning": {
+            "total": 0.010068105009850115,
+            "count": 1,
+            "self": 0.0001357740256935358,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 0.009888584958389401,
+                    "count": 1,
+                    "self": 0.009888584958389401
+                },
+                "TrainerController._save_models": {
+                    "total": 4.374602576717734e-05,
+                    "count": 1,
+                    "self": 4.374602576717734e-05
+                }
+            }
+        }
+    }
+}

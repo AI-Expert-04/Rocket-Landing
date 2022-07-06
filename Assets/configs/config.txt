@@ -1,0 +1,4 @@
+behaviors:
+    My Behavior:
+        max_steps: 10000000
+        summary_freq: 10000

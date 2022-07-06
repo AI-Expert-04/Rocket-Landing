@@ -1,0 +1,80 @@
+behaviors:
+    My Behavior:
+        max_steps: 10000000
+        summary_freq: 10000
+
+environment_parameters:
+    init_height:
+        curriculum:
+            - name: init_height1
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.01
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 20
+            - name: init_height2
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.02
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 40
+            - name: niveau3
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.04
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 60
+            - name: niveau4
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.07
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 80
+            - name: niveau5
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.11
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 100
+            - name: niveau6
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.16
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 120
+            - name: niveau7
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.22
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 140
+            - name: niveau7
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.29
+                min_lesson_length: 100
+                signal_smoothing: true
+                require_reset: true
+              value: 160

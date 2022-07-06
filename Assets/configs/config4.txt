@@ -1,0 +1,118 @@
+behaviors:
+    My Behavior:
+        max_steps: 100000000
+        summary_freq: 50000
+
+environment_parameters:
+    init_height:
+        curriculum:
+            - name: init_height1
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.05
+              value: 10
+            - name: init_height2
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.15
+              value: 20
+            - name: init_height3
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.25
+              value: 30
+            - name: init_height4
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.35
+              value: 40
+            - name: init_height5
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.45
+              value: 50
+            - name: init_height6
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.55
+              value: 60
+            - name: init_height7
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.65
+              value: 70
+            - name: init_height8
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.75
+              value: 80
+            - name: init_height9
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.85
+              value: 90
+    rotation_range:
+        curriculum:
+            - name: rotation_range1
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.1
+              value: 0
+            - name: rotation_range2
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.2
+              value: 1
+            - name: rotation_range3
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.3
+              value: 2
+            - name: rotation_range4
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.4
+              value: 3
+            - name: rotation_range5
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.5
+              value: 4
+            - name: rotation_range6
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.6
+              value: 5
+            - name: rotation_range7
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.7
+              value: 6
+            - name: rotation_range8
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.8
+              value: 7
+            - name: rotation_range9
+              completion_criteria:
+                measure: progress
+                behavior: My Behavior
+                threshold: 0.9
+              value: 8

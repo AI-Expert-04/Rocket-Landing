@@ -1,0 +1,68 @@
+{
+    "init_height": {
+        "lesson_num": 7
+    },
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 999949,
+                "file_path": "results\\RocketU\\My Behavior\\My Behavior-999949.onnx",
+                "reward": 1.0,
+                "creation_time": 1638461828.3321037,
+                "auxillary_file_paths": [
+                    "results\\RocketU\\My Behavior\\My Behavior-999949.pt"
+                ]
+            },
+            {
+                "steps": 1499992,
+                "file_path": "results\\RocketU\\My Behavior\\My Behavior-1499992.onnx",
+                "reward": 1.0,
+                "creation_time": 1638462332.9551332,
+                "auxillary_file_paths": [
+                    "results\\RocketU\\My Behavior\\My Behavior-1499992.pt"
+                ]
+            },
+            {
+                "steps": 1999980,
+                "file_path": "results\\RocketU\\My Behavior\\My Behavior-1999980.onnx",
+                "reward": 1.0,
+                "creation_time": 1638462837.1563702,
+                "auxillary_file_paths": [
+                    "results\\RocketU\\My Behavior\\My Behavior-1999980.pt"
+                ]
+            },
+            {
+                "steps": 2499992,
+                "file_path": "results\\RocketU\\My Behavior\\My Behavior-2499992.onnx",
+                "reward": 0.9411764705882353,
+                "creation_time": 1638463345.720732,
+                "auxillary_file_paths": [
+                    "results\\RocketU\\My Behavior\\My Behavior-2499992.pt"
+                ]
+            },
+            {
+                "steps": 2755705,
+                "file_path": "results\\RocketU\\My Behavior\\My Behavior-2755705.onnx",
+                "reward": null,
+                "creation_time": 1638463596.8188853,
+                "auxillary_file_paths": [
+                    "results\\RocketU\\My Behavior\\My Behavior-2755705.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2755705,
+            "file_path": "results\\RocketU\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1638463596.8188853,
+            "auxillary_file_paths": [
+                "results\\RocketU\\My Behavior\\My Behavior-2755705.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.2+cpu"
+    }
+}
