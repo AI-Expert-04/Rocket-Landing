@@ -23,7 +23,7 @@ environment_parameters:
                 behavior: My Behavior
                 threshold: 0.15
               value: 20
-    }</code></pre>
+</code></pre>
 
 
 ## Unity 파일구조
