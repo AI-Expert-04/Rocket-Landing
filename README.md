@@ -3,25 +3,25 @@
 ### 파라미터
 ##### config5.txt
 <pre><code>
-    behaviors:
-    My Behavior:
-        max_steps: 100000000
-        summary_freq: 10000
+    behaviors:   동작
+    My Behavior:      내 행동
+        max_steps: 100000000   1억번 에피소드
+        summary_freq: 10000    만번마다 결과값 출력
 
 environment_parameters:
     init_height:
-        curriculum:
-            - name: init_height1
+        curriculum: 과정
+            - name: init_height1 -> 코드에 있음
               completion_criteria:
-                measure: progress
-                behavior: My Behavior
-                threshold: 0.05
+                measure: progress 측정: 진행 상황
+                behavior: My Behavior 행동 : 내 행동
+                threshold: 0.05  임계값
               value: 10
             - name: init_height2
-              completion_criteria:
-                measure: progress
-                behavior: My Behavior
-                threshold: 0.15
+              completion_criteria:  
+                measure: progress 측정: 진행 상황
+                behavior: My Behavior 행동 : 내 행동
+                threshold: 0.15 임계값
               value: 20
 </code></pre>
 
