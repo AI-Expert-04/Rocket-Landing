@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -835,7 +835,7 @@ PrefabInstance:
     - target: {fileID: 7586950713349599711, guid: 9ab35b51469bc974fa69267e5c6f9d54, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 1e44576d897fd482ab3f55bc3a789dac, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 186ae96bd6628402d8099d6a17cc393b, type: 3}
     - target: {fileID: 7586950713349599712, guid: 9ab35b51469bc974fa69267e5c6f9d54, type: 3}
       propertyPath: m_Name
       value: Rocket
