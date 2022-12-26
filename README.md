@@ -28,8 +28,7 @@ y좌표(높이)가 20 이하인 경우 로켓 4개으 다리를 서서히 피는
 
 ### 파라미터
 ##### config2.txt
-<pre><code>
-behaviors:
+<pre><code>behaviors:
   My Behavior:
     trainer_type: ppo
     hyperparameters:
