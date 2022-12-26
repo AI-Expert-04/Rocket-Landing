@@ -27,28 +27,33 @@ y좌표(높이)가 20 이하인 경우 로켓 4개으 다리를 서서히 피는
 ![video](result/Roket_Video.mov)
 
 ### 파라미터
-##### config5.txt
+##### config2.txt
 <pre><code>
-    behaviors:   동작
-    My Behavior:      내 행동
-        max_steps: 100000000   1억번 에피소드
-        summary_freq: 10000    만번마다 결과값 출력
-
-environment_parameters:
-    init_height:
-        curriculum: 과정
-            - name: init_height1 -> 코드에 있음
-              completion_criteria:
-                measure: progress 측정: 진행 상황
-                behavior: My Behavior 행동 : 내 행동
-                threshold: 0.05  임계값
-              value: 10
-            - name: init_height2
-              completion_criteria:  
-                measure: progress 측정: 진행 상황
-                behavior: My Behavior 행동 : 내 행동
-                threshold: 0.15 임계값
-              value: 20
+    behaviors:
+  My Behavior:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 2048
+      buffer_size: 20480
+      learning_rate: 0.0003
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: true
+      hidden_units: 512
+      num_layers: 3
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.995
+        strength: 1.0
+    keep_checkpoints: 10000
+    max_steps: 1000000000
+    time_horizon: 1000
+    summary_freq: 30000
 </code></pre>
 
 
