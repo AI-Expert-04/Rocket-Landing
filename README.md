@@ -69,6 +69,17 @@ y좌표(높이)가 20 이하인 경우 로켓 4개으 다리를 서서히 피는
     summary_freq: 30000
 </code></pre>
 
+### 학습방법
+##### [ML-Agents Config]
+<pre><code>conda activate [가상환경이름]-env
+cd {SpaceX Landing 프로젝트 폴더 경로}\Assets
+mlagents-learn config/config2.txt --run-id=[이름 생성]
+mlagents-learn config/config2.txt --run-id=[이름 생성] --resume   <- 이어학습(학습 종료후 종료 시점부터 이어서 학습)</code></pre>
+##### [ML-Agents 결과물]
+<pre><code>conda activate [가상환경이름]-env
+cd {SpaceX Landing 프로젝트 폴더 경로}\Assets
+tensorboard --logdir=./results</code></pre>
+
 
 ## Unity 파일구조
 ```
