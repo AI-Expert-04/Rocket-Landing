@@ -41,8 +41,17 @@ y좌표(높이)가 20 이하인 경우 로켓 4개으 다리를 서서히 피는
 ### 느낀점
 ppo알고리즘을 사용하여 기존 데이터를 활용하여 학습에 큰 도움을 주긴 하였지만 언제나 성장을 했을때 기존 데이터가 쓸모가 있어진다
 후 보상체계도 좋았지만 실시간으로 보상을 주는 방법을 떠올린 것이 신의 한수 였다. 물리엔진 말고 기압, 온도, 풍력, 날씨, 계절 등을 도입해 다양한 테스트를 할 예정
-# 영상(Viode)
-!<iframe width="560" height="315" src="https://www.youtube.com/embed/XtoOrVzBbbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# 영상(video)
+<iframe width="560" height="315" 
+        src="https://www.youtube.com/watch?v=XtoOrVzBbbQ" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; 
+               autoplay; clipboard-write; 
+               encrypted-media; gyroscope; 
+               picture-in-picture" 
+        allowfullscreen>
+</iframe>
 
 ### 파라미터
 ##### config2.txt
