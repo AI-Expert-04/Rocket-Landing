@@ -43,8 +43,8 @@ ppo알고리즘을 사용하여 기존 데이터를 활용하여 학습에 큰 �
 후 보상체계도 좋았지만 실시간으로 보상을 주는 방법을 떠올린 것이 신의 한수 였다. 물리엔진 말고 기압, 온도, 풍력, 날씨, 계절 등을 도입해 다양한 테스트를 할 예정
 # 영상(Viode)
 ![video](result/Roket_Video.mov)
-src="https://www.youtube.com/watch?v=XtoOrVzBbbQ"
-!https://www.youtube.com/watch?v=XtoOrVzBbbQ
+!(https://www.youtube.com/watch?v=XtoOrVzBbbQ)
+<iframe width='300' height='200' source="https://www.youtube.com/watch?v=XtoOrVzBbbQ"/>
 
 ### 파라미터
 ##### config2.txt
